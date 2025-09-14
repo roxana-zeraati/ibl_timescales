@@ -1,6 +1,6 @@
 # Mouse brain timescales from IBL data
 
-Codes for estimating autocorrelation timescales from IBL data. If you use this code for a scientific publication, please cite this paper: 
+Codes for estimating autocorrelation timescales from IBL data. If you use this code for a scientific publication, please cite this paper:    
 Shi*, Y. L., Zeraati*, R., The International Brain Laboratory, Levina, A., & Engel, T. A. (2025). Brain-wide organization of intrinsic timescales at single-neuron resolution. bioRxiv, 2025-08. https://doi.org/10.1101/2025.08.30.673281 
 
 We estimated intrinsic timescales of single-neuron activity from the spike-count autocorrelation computed during 10-minute recordings of spontaneous activity at the end of each session. The autocorrelations were computed using the [abcTau package](https://github.com/roxana-zeraati/abcTau).
