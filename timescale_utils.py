@@ -243,7 +243,7 @@ def fit_model_comp_BIC(ac, lags, bin_size, max_lag, if_noisiness_exclude = False
     2: three expoenential decays
     3: four expoenential decays
     100: AC shape decayed too fast or was too noisy (this is not used in the final version, we use R2 instead)
-    101: None of the models above could not fit the data
+    101: None of the models above could fit the data
     20x: The R2 of the fitted model was too low (below R2_thresh), x is the index of fitted model (see above).
     
     
