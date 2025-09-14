@@ -17,7 +17,7 @@ The main timescales estimation function is `fit_model_comp_BIC`. The output of f
 -  3: four expoenential decays
 -  100: AC shape decayed too fast or was too noisy (this is not used in the final version, we use R2 instead)
 -  101: None of the models above could not fit the data
--  20x:The $R^2$ (coefficient of determination) of the fitted model was too low (below `R2_thresh`), x is the index of fitted model (see above).
+-  20x: The $R^2$ (coefficient of determination) of the fitted model was too low (below `R2_thresh`), x is the index of fitted model (see above).
 
 For the selected model, it also returns model parameters as `selected_params` and $R^2$ as `selected_R2`.
 
