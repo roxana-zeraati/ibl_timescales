@@ -4,7 +4,7 @@ from scipy.optimize import curve_fit
 
 
 def four_exp(time, tau1, tau2, tau3, tau4, coef1, coef2, coef3, coef4):
-    """a mixture of four expoenetial decay functiona.
+    """a mixture of four expoenetial decay functions.
 
     Parameters
     -----------
