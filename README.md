@@ -21,6 +21,11 @@ The main timescales estimation function is `fit_model_comp_BIC`. The output of f
 For the selected model, it also returns model parameters as `selected_params` and $R^2$ as `selected_R2`.
 
 
+## Operating system
+- macOS
+- Windows
+- Linux
+
 ## Dependencies
 - Python >= 3.11.7
 - Numpy >= 1.26.4 
