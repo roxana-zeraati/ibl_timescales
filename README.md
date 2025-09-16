@@ -3,7 +3,7 @@
 Codes for estimating autocorrelation timescales from IBL data. If you use this code for a scientific publication, please cite this paper:    
 Shi*, Y. L., Zeraati*, R., The International Brain Laboratory, Levina, A., & Engel, T. A. (2025). Brain-wide organization of intrinsic timescales at single-neuron resolution. bioRxiv, 2025-08. https://doi.org/10.1101/2025.08.30.673281 
 
-We estimated intrinsic timescales of single-neuron activity from the spike-count autocorrelation computed during 10-minute recordings of spontaneous activity at the end of each session. The autocorrelations were computed using the [abcTau package](https://github.com/roxana-zeraati/abcTau) (using function `comp_ac_fft`).
+We estimated intrinsic timescales of single-neuron activity from the spike-count autocorrelation computed during 10-minute recordings of spontaneous activity at the end of each session. The autocorrelations were computed using the [abcTau package](https://github.com/roxana-zeraati/abcTau) (with `comp_ac_fft` function).
 
 To estimate the timescales, we used scipy `curve_fit` function to fit the AC shapes with a mixture of exponential decay functions with up to four timescales, and applied the Bayesian information criterion (BIC) to select the best-fitting model. In addition, we required each timescale to contribute at least 1\% to the overall autocorrelation shape; otherwise, we selected the model with fewer timescales, even if a more complex model was preferred by the BIC. This additional constraint ensured that our analysis focused only on timescales that substantially contributed to neural dynamics.
 
