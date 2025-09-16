@@ -4,7 +4,7 @@ from scipy.optimize import curve_fit
 
 
 def four_exp(time, tau1, tau2, tau3, tau4, coef1, coef2, coef3, coef4):
-    """a triple expoenetial decay function.
+    """a mixture of four expoenetial decay functiona.
 
     Parameters
     -----------
@@ -171,7 +171,6 @@ def single_exp_add_oscil(time, a, tau, f, coeff):
 
 def compute_goodness_fit(ydata, yfit, xdata , k):
     """compute R2 and AIC for a given fit.
-    Based on https://stackoverflow.com/questions/19189362/getting-the-r-squared-value-using-curve-fit
 
     Parameters
     -----------
